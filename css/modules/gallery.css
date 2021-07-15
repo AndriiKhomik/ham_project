@@ -1,0 +1,86 @@
+.gallery {
+    padding-top: 90px;
+    padding-bottom: 80px;
+
+    position: relative;
+}
+
+.flex-container-wrapper {
+    margin-top: 83px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.flex-item {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.flex-middle {
+    width: 363px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-middle .flex-item {
+    margin-bottom: 3px;
+}
+
+.flex-middle img {
+    width: 180px;
+    height: 100%;
+}
+
+.flex-small {
+    width: 363px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.flex-small .flex-item {
+    margin-bottom: 3px;
+}
+
+.flex-small img {
+    width: 119px;
+    height: 100%;
+}
+
+.flex-item-hover {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background: rgba(0, 0, 0, 0.64);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.flex-item svg {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: #14B9D5;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    margin-left: 25px;
+    cursor: pointer;
+    
+}
+
+.flex-item:hover .flex-item-hover {
+    opacity: 1;
+}
+
+
+
+
+

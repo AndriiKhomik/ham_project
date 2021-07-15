@@ -1,0 +1,35 @@
+.features {
+    margin-top: 10px;
+}
+
+.features-items {
+    display: flex;
+    text-align: center;
+}
+
+.features-item {
+    width: 25%;
+    padding-bottom: 110px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.features-item:nth-of-type(odd) {
+    background-color:  #1C2A33;
+    padding-top: 95px;
+    color: #18CFAB;
+}
+
+.features-item:nth-of-type(even) {
+    background-color:  #18CFAB;
+    padding-top: 106px;
+    color: #FFFFFF;
+}
+
+.features-item-description-odd {
+    margin-top: 47px;
+}
+
+.features-item-description-even {
+    margin-top: 58px;
+}

@@ -1,0 +1,155 @@
+.works {
+    padding-top: 90px;
+    padding-bottom: 99px;
+    background-color: #E9EDEF;
+
+    position: relative;
+}
+
+.works-tabs {
+    margin-top: 97px;
+    display: flex;
+    justify-content: center;
+}
+
+.works-tab-btn {
+    background-color: transparent;
+    border: 1px solid #DADADA;
+    border-right: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.works-tab-btn:first-child {
+    padding-left: 27px;
+    padding-right: 28px;
+}
+
+.works-tabs li:last-child {
+    border-right: 1px solid #DADADA;
+}
+
+.works-tab-btn:hover {
+    border: 1px solid #18CFAB;;
+}
+
+.works-active-tab {
+    border: 1px solid  #18CFAB;
+}
+
+.works-items-wrapper {
+    margin-bottom: 0;
+}
+
+.works-items {
+    margin-top: 71px;
+    display: grid;
+    grid-template-columns: 285px 285px 285px 285px;
+    grid-template-rows: auto;
+}
+
+.works-item{
+    width: 285px;
+    height: 211px;
+    position: relative;
+
+}
+
+.works-item:hover .works-item-hover {
+    opacity: 1;
+}
+
+.works-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.works-item-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color:  #E9EDEF;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #18CFAB;
+    opacity: 0;
+    transition: 0.6s ease-in;
+}
+
+.works-item-hover_icons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.works-item-hover_icon-left {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #18CFAB;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.works-item-hover_icon-left svg {
+    position: absolute;
+    top: 61px;
+    left: 112px;
+}
+
+.works-item-hover_icon-right {  
+    width: 40px;
+    height: 40px;
+    background-color: #18CFAB;
+    border: 1px solid #18CFAB;
+    border-radius: 50%;
+}
+
+.works-item-hover_icon-right::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 11px;
+    background: #FFFFFF;
+    margin-left: 30px;
+    top: 63px;
+    left: 130px;
+}
+
+.works-item-hover_title {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18CFAB;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.works-item-hover_category {
+    color: #8A8A8A;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.works-btn {
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: #18CFAB;
+    font-size: 14px;
+    transition: 0.3s ease-in;
+}
+
+.works-btn span {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.works-btn:hover {
+    background-color: transparent;
+    color: #18CFAB;
+    border: 1px solid #18CFAB;
+}
+
+
+

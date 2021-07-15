@@ -1,0 +1,32 @@
+.buy-it {
+    padding-top: 126px;
+    padding-bottom: 127px;
+}
+
+.buy-it-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../../img/Sections_background/section-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buy-it-header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #18CFAB;
+}
+
+.buy-it-description {
+    font-size: 16px;
+    line-height: 40px;
+    color: #D8D8D8;
+    margin-top: 12px;
+}
+
+.buy-it-btn {
+    margin-top: 62px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
