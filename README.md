@@ -1,4 +1,5 @@
-# AndriiKhomik.github.io
+# Ham
 
-<a href="https://andriikhomik.github.io/">Link to Hithub Pages</a>
+<a href="https://andriikhomik.github.io/" target="_blank">Link to Hithub Pages</a>
 
+Landing page with using CSS/HTML and native JS
