@@ -1,4 +1,4 @@
 # AndriiKhomik.github.io
 
-<a href="AndriiKhomik.github.io">Link to Hithub Pages</a>
+<a href="https://andriikhomik.github.io/">Link to Hithub Pages</a>
 
